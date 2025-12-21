@@ -20,5 +20,6 @@ graph TD
     C-->D;
 ```
 5. [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) for complex diagrams like,
+
  ![Example Diagram](./example-diagram.drawio.svg)
 

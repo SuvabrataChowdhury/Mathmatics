@@ -2,5 +2,6 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
     "editor.snippetSuggestions": "top",
-    "editor.tabCompletion": "on"
+    "editor.tabCompletion": "on",
+    "mdmath.delimiters": "dollars"
 }
