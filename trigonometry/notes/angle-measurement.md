@@ -22,32 +22,31 @@ To derive an expression for $\theta$ with respect to the circle it must follow t
 1. **Arc Length:**
     The Arc Length ( $\widehat{PM}$ in above example ) literally describes the distance traversed along the circumference of the circle to reach $P$.
     So by this approach we can declare,
-    $$ 
-    \theta = s \quad [\; s = \widehat{PM} \;]
-    $$
 
-    But, this assertion is problematic as if we have a different sized-circle the same amount of distance rotated will be different.
+$$
+\theta = s \quad [s = \widehat{PM} ]
+$$
 
-    ![Circle Bigger Circle](./images/circle-bigger-circle.drawio.svg)
+But, this assertion is problematic as if we have a different sized-circle the same amount of distance rotated will be different.
 
-    In the above example definitely $\widehat{QN}$ is greater than $\widehat{PM}$ even though same amount rotation is done. This violates the invariant property.
+![Circle Bigger Circle](./images/circle-bigger-circle.drawio.svg)
+
+In the above example definitely $\widehat{QN}$ is greater than $\widehat{PM}$ even though same amount rotation is done. This violates the invariant property.
 
 2. **Proportional Distance**:
     As we need a quantity that must be invariant of scaling of the circle we can consider the following,
-    $$
+   
+$$
+\theta = \frac{s}{2 \pi r} \quad [s = \widehat{PM}]
+$$
 
-    \theta = \frac{s}{2 \pi r} \quad [\; s = \widehat{PM} \;]
-
-    $$
-
-    This actually captures the invariance as this ratio must be same for any circle. Reason being it's a proportion between the arc length covered to the full length i.e., the circumference that can be covered.
+This actually captures the invariance as this ratio must be same for any circle. Reason being it's a proportion between the arc length covered to the full length i.e., the circumference that can be covered.
 
 ### Actual Expression:
 The [Proportional Distance](#possible-solutions) definition satisfies all of the properties mentioned [here](#desirable-properties-for-the-measurement) but if we see the expression we can extract a constant term out namely $\frac{1}{2\pi}$ which does not depend on the circle or $P$. This way we get the true expression of the anglement measurement,
+
 $$ 
-
-\boxed{\therefore \quad \theta = \frac{s}{r} \quad [\; s = \widehat{PM} \;]}
-
+\boxed{\therefore \quad \theta = \frac{s}{r} \quad [s = \widehat{PM}]}
 $$
 
 This is the **minimal invariant** which satisfies all [desired properties](#desirable-properties-for-the-measurement).
