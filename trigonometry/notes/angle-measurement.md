@@ -51,10 +51,42 @@ $$
 
 This is the **minimal invariant** which satisfies all [desired properties](#desirable-properties-for-the-measurement).
 
-> **Note: ** For an unit circle i.e., $r = 1$ we have $\boxed{\theta = s}$
+> **Note:** For an unit circle i.e., $r = 1$ we have $\boxed{\theta = s}$
 
 So the quantity that is required to uniquely identify a point on the circumference of a circle of radius $r$ is $\theta$ whose expression is given [here](#actual-expression).
 
 > **Note:** It can be seen that any point in the $XY$ plane can be uniquely referenced using the pair $(r,\theta)$ where $r$ is the distance from origin of that point and $\theta$ is the angle that line makes with positive $X$-axis. This forms the basis of **Polar Coordinate System**.
 
-> See [Radians and Degrees](./radians-degrees.md) next.
+## Radian:
+As $\theta$ is an **angle measurement**, it must have some unit to make sense.
+
+> **One Radian** is the angle suspended at the center of a circle by an arc whose length is same as the circle's radius. It's the SI unit for angles.
+![Radian](./images/circle-radian.drawio.svg)
+
+If we put $s=r$ in the expression of $\theta$ then we get,
+$$\theta = \frac{r}{r} = 1$$
+Therefore, $\frac{s}{r}$ gives then angle in radian.
+
+As any circle can be obtained by scaling up the unit circle we can concentrate on unit circle from now on.
+
+For a full rotation, by the above definition of radian, we can write,
+$$
+\boxed{\theta = \frac{2 \pi r}{r} \; Rad= 2 \pi \; Rad}
+$$
+
+Similarly a half rotation is,
+$$ \boxed{\theta = \frac{\pi r}{r} \; Rad = \pi \; Rad} $$
+
+## Radian vs Degree:
+One more common unit for angle measurement is Degree which is defined as,
+> One degree is $\frac{1}{360}^{th}$ of a full rotation of a circle. It's denoted by symbol $\degree$.
+
+Though, this is also a general enough definition for an angle of measurement, it has it's limitations. One of the major limitation being, by definition, a degree as a measurement of angle, can not be more than $360\degree$ which is a desired property to accurately describe rotation.
+
+Due to this, instead of degrees, radians are widely used in Maths and related fields to describe rotation and angles. 
+
+Due to degrees' popularity it is worth mentioning the conversion.
+
+$$\boxed{1 \degree = \frac{2 \pi }{360} \; Rad = \frac{\pi}{180} \; Rad}$$
+
+> **Note:** As Radian is used as a standard unit, whenever the unit is missing in an angle measurement then it is considered to be in radians.
