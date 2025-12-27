@@ -2,7 +2,7 @@
 
 **Problem**: Given a circle of radius $r$ and a randomly chosen point $P$ on the circumference of the circle, find a quantity(s) that can uniquely refer to $P$.
 
-![Circle angle](/trigonometry/notes/images/circle-angle.drawio.svg)
+![Circle angle](./images/circle-angle.drawio.svg)
 
 As a circle is symmetric (8-way to be precise), to uniquely refer $P$, we need some reference. So, as reference axis we draw two perpendicular lines through the circle's center labeled $XX^\prime$ and $YY^\prime$. $OX$ and $OY$ are considered positive and $OX^\prime$, $OY^\prime$ are considered negative. The circle intersects positive $X$-axis at $M$.
 
@@ -30,7 +30,7 @@ $$
 
 But, this assertion is problematic as if we have a different sized-circle the same amount of distance rotated will be different.
 
-![Circle Bigger Circle](/trigonometry/notes/images/circle-bigger-circle.drawio.svg)
+![Circle Bigger Circle](./images/circle-bigger-circle.drawio.svg)
 
 In the above example definitely $\widehat{QN}$ is greater than $\widehat{PM}$ even though same amount rotation is done. This violates the invariant property.
 
@@ -62,7 +62,7 @@ So the quantity that is required to uniquely identify a point on the circumferen
 As $\theta$ is an **angle measurement**, it must have some unit to make sense.
 
 > **One Radian** is the angle suspended at the center of a circle by an arc whose length is same as the circle's radius. It's the SI unit for angles.
-![Radian](/trigonometry/notes/images/circle-radian.drawio.svg)
+![Radian](./images/circle-radian.drawio.svg)
 
 If we put $s=r$ in the expression of $\theta$ then we get,
 $$\theta = \frac{r}{r} = 1$$
