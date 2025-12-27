@@ -1,0 +1,9 @@
+[book]
+title = "Trigonometry"
+authors = ["I578071"]
+language = "en"
+
+[output.html]
+mathjax-support = true
+smart-punctuation = false
+theme = "src/theme"
